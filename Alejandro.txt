@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marca de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x500');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 20px 0 0;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .productos {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .producto {
+            flex: 1 1 30%;
+            margin: 15px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .producto h3 {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nombre de la Marca</h1>
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Bienvenido a Nombre de la Marca</h1>
+    <p>Moda con estilo y elegancia para todos</p>
+</div>
+
+<div class="container" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una marca de ropa dedicada a ofrecer las últimas tendencias en moda con materiales de alta calidad y diseños exclusivos.</p>
+</div>
+
+<div class="container" id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto 1.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto 2.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>Descripción breve del producto 3.</p>
+        </div>
+    </div>
+</div>
+
+<footer id="contacto">
+    <p>Contacta con nosotros en: contacto@marca.com</p>
+    <p>Síguenos en nuestras redes sociales</p>
+</footer>
+
+</body>
+</html>
